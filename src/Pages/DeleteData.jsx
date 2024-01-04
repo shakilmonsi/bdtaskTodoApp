@@ -6,7 +6,7 @@ import ConfirmationModal from './ConfirmationModal';
 import { Link } from 'react-router-dom';
 
 const DeleteData = () => {
-    const [deletingDoctor, setDeletingDoctor] = useState(null);
+    const [deletingDoctor, setDeletingDoctor ,] = useState(null);
 
     const closeModal = () => {
         setDeletingDoctor(null);
